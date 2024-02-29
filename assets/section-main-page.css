@@ -21,3 +21,29 @@
   width: 52.5rem;
   height: 52.5rem;
 }
+
+.glowe-dynamic-page h2 {
+  font-size: 15px;
+  line-height: 101.5%;
+  letter-spacing: 0.005em;
+  font-family: var(--font-body-family);
+  text-transform: uppercase;
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+}
+
+.glowe-dynamic-page .rte {
+  font-family: var(--font-heading-family);
+  color: #ffffff;
+  font-size: calc(1.5em + 3.5vw);
+  letter-spacing: -0.005em;
+  line-height: 101.5%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.glowe-dynamic-page .rte img {
+  height: 1em;
+  position: relative;
+  top: 0.15em;
+}
