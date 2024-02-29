@@ -1264,6 +1264,30 @@
         "label": "t:settings_schema.badges.settings.position.label"
       },
       {
+        "type": "select",
+        "id": "badge_position_soldout",
+        "options": [
+          {
+            "value": "bottom left",
+            "label": "t:settings_schema.badges.settings.position.options__1.label"
+          },
+          {
+            "value": "bottom right",
+            "label": "t:settings_schema.badges.settings.position.options__2.label"
+          },
+          {
+            "value": "top left",
+            "label": "t:settings_schema.badges.settings.position.options__3.label"
+          },
+          {
+            "value": "top right",
+            "label": "t:settings_schema.badges.settings.position.options__4.label"
+          }
+        ],
+        "default": "top right",
+        "label": "Sold Out Badge Position"
+      },
+      {
         "type": "range",
         "id": "badge_corner_radius",
         "min": 0,
