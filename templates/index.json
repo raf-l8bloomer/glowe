@@ -1,1 +1,127 @@
-{"sections":{"image_with_text_zBWWXU":{"type":"image-with-text","blocks":{"heading_wPYytz":{"type":"heading","settings":{"heading":"Clean Skincare Made for You","heading_size":"h1"}},"button_HFwhWW":{"type":"button","settings":{"button_label":"→ Shop All","button_link":"shopify:\/\/collections\/all"}}},"block_order":["heading_wPYytz","button_HFwhWW"],"settings":{"image":"shopify:\/\/shop_images\/Hero-image.png","height":"large","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","mobile_content_alignment":"center","padding_top":0,"padding_bottom":0}},"page_PCDr9d":{"type":"page","settings":{"page":"what-we-do","heading_size":"h1","color_scheme":"inverse","padding_top":36,"padding_bottom":36}},"featured_collection":{"type":"featured-collection","settings":{"title":"New In","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"new-arrivals","products_to_show":3,"columns_desktop":3,"full_width":false,"show_view_all":true,"view_all_style":"link","enable_desktop_slider":false,"color_scheme":"background-1","image_ratio":"portrait","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":28,"padding_bottom":36}}},"order":["image_with_text_zBWWXU","page_PCDr9d","featured_collection"]}
+{
+  "sections": {
+    "image_with_text_zBWWXU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wPYytz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clean Skincare Made for You",
+            "heading_size": "h1"
+          }
+        },
+        "button_HFwhWW": {
+          "type": "button",
+          "settings": {
+            "button_label": "→ Shop All",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wPYytz",
+        "button_HFwhWW"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero-image.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "page_PCDr9d": {
+      "type": "page",
+      "settings": {
+        "page": "what-we-do",
+        "heading_size": "h1",
+        "color_scheme": "inverse",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New In",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-arrivals",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_nRgPJD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YBheUE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Demo Store",
+            "heading_size": "h2"
+          }
+        },
+        "text_pLRNrB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This website is a demo of the Glowe Shopify Theme, available as a Cookie Reward through the<a href=\"https:\/\/ilovecreatives.com\/shopify-course\" target=\"_blank\" title=\"https:\/\/ilovecreatives.com\/shopify-course\">ilovecreatives Shopify Course<\/a>.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_xxfMCj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_YBheUE",
+        "text_pLRNrB",
+        "button_xxfMCj"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/what-we-do-01.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "image_with_text_zBWWXU",
+    "page_PCDr9d",
+    "featured_collection",
+    "image_with_text_nRgPJD"
+  ]
+}
