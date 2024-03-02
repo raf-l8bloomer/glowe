@@ -989,7 +989,15 @@ summary::-webkit-details-marker {
 }
 
 .title-wrapper--no-top-margin > .title {
-  margin-top: 0;
+  margin-top: 2rem;
+    font-family: var(--font-body-family);
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 101.5%;
+    letter-spacing: .005em;
+    border-bottom: 1px solid rgba(var(--color-foreground));
+    padding-bottom: 1.5rem;
+    margin-bottom: 4rem;
 }
 
 .subtitle {
@@ -3100,3 +3108,27 @@ details-disclosure > details {
     top: 1rem;
   }
 }
+
+/* Move "View All" button to top right of New In section */
+
+section .collection .collection__view-all {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: inherit;
+  margin-top: 2rem;
+  padding-right: 5rem;
+  display: flex;
+}
+
+/* Style "View All" button */
+
+section .collection .collection__view-all a {
+  font-family: var(--font-body-family);
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 101.5%;
+  letter-spacing: .005em;
+  text-decoration: none;
+}
+
