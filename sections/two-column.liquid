@@ -6,7 +6,7 @@
     </div>
   </div>
   <div class="two-column-card ">
-    {{ section.settings.image_with_text | image_url: width: 1500 | image_tag }}
+    <img src="{{ section.settings.image_with_text | image_url | image_tag }}" width="1500px" height="1500px"> 
     {{ section.settings.text_over_image }}
   </div>
 </div>
