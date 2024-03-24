@@ -1,11 +1,51 @@
+<div class="two-column-list contains-content-container grid grid--1-col-tablet-down grid--2-col-desktop">
+  <div class="two-column-card__info">
+    <h3>{{ section.settings.first_column_title }}</h3>
+    <div class="rte">
+      {{ section.settings.paragraph }}
+    </div>
+  </div>
+  <div class="two-column-card ">
+    {{ section.settings.image_with_text | image_url: width: 1500 | image_tag }}
+    {{ section.settings.text_over_image }}
+  </div>
+</div>
+
 {% schema %}
 {
-  "name": "two-column",
-  "settings": [],
-    "presets": [
-        {
-        "name": "Two Column"}
-    ]
+  "name": "Two Column",
+  "tag": "section",
+  "class": "two-column",
+  "settings": [
+    {
+      "type": "text",
+      "id": "first_column_title",
+      "label": "First Column Title",
+      "default": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "paragraph",
+      "label": "Paragraph"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_with_text",
+      "label": "Image"
+    },
+    {
+        "type": "text",
+        "id": "text_over_image",
+        "label": "Text Over Image",
+        "default": "About"
+      }
 
+
+  ],
+  "presets": [
+    {
+      "name": "Two Column"
+    }
+  ]
 }
 {% endschema %}
