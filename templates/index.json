@@ -120,6 +120,9 @@
     "two_column_jmnUhB": {
       "type": "two-column",
       "settings": {
+        "first_column_title": "Heading",
+        "paragraph": "<p>This website is a demo of the Glowe Shopify Theme, available as a Cookie Reward through the <a href=\"https:\/\/ilovecreatives.com\/shopify-course\" target=\"_blank\" title=\"https:\/\/ilovecreatives.com\/shopify-course\">ilovecreatives Shopify Course<\/a>.<\/p>",
+        "text_over_image": "About"
       }
     }
   },
