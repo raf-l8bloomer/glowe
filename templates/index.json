@@ -125,6 +125,55 @@
         "image_with_text": "shopify:\/\/shop_images\/what-we-do-01.png",
         "text_over_image": "About"
       }
+    },
+    "rich_text_yPcGHC": {
+      "type": "rich-text",
+      "blocks": {
+        "text_VqeHqA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HOW IT WORKS<\/p>"
+          }
+        },
+        "heading_JL8PLy": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Validated by scientists. Tested by dermatologists. Delivered straight to your door.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_WniE9g": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ur custom formulas are based on data from millions of peoples’ skin types, gathered over 20+ years by our research scientists. We’re committed to cruelty free and vegan formulas.<\/p>"
+          }
+        },
+        "button_Kx9dwc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "shopify:\/\/blogs\/journal",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_VqeHqA",
+        "heading_JL8PLy",
+        "text_WniE9g",
+        "button_Kx9dwc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -132,6 +181,7 @@
     "page_PCDr9d",
     "featured_collection",
     "image_with_text_nRgPJD",
-    "two_column_jmnUhB"
+    "two_column_jmnUhB",
+    "rich_text_yPcGHC"
   ]
 }
